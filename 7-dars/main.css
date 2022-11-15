@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+width: 1440px;
+height: 600px;
+gap: 5px;
+
+}
+.box {
+
+    width: 400px;
+    height: 500px;
+  background-image: url("https://www.wallpaperflare.com/static/190/147/766/snow-lake-spring-mountains-view-wallpaper.jpg");
+  background-size: cover;
+    margin: auto;
+}
+
+
+
+.box2 {
+
+    width: 400px;
+    height: 500px;
+  background-image: url("https://avatars.mds.yandex.net/i?id=4bc42980ad812e06eb474f0b4121afa0-5161363-images-thumbs&n=13");
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin: auto;
+}
+
+
+
+
+.box3 {
+
+    width: 400px;
+    height: 500px;
+ background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/worship-1040_rmxso3yll_thumbnail-1080_01.png");
+ background-size: cover;
+    margin: auto;
+}
+
+
+
+
+.box4{
+
+    width: 400px;
+    height: 500px;
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/3/d7/dolina-monumentov-ssha-arizona-pustynia-skaly-gory-noch-nebo.jpg");
+    background-size: cover;
+    margin: auto;
+}
+
+
+.card {
+    display: none;
+}
+
+.moun {
+
+
+    padding-top: 90px;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.text {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.card-btn {
+    display: flex;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.btn {
+
+    margin-left: 90px;
+    width: 190px;
+    padding: 15px;
+    background-color: black;
+}
+
+.box:hover .card {
+    display: block;
+    animation-name: harakat;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes harakat {
+    0% {
+        transform: translate(0, 300px);
+    }
+}
+
+.box:hover .moun {
+    padding-top: 90px;
+    animation-name: harakat;
+    animation-duration: 1.5s;
+}
